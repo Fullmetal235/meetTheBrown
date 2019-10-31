@@ -1,0 +1,66 @@
+@import "../../App.scss";
+
+.main-cards-container {
+  margin: 5rem auto 0;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items-container {
+  margin: 5rem auto 0;
+  width: 95%;
+  justify-content: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-card-container {
+  margin: 0.5rem;
+  h5 {
+    margin-top: 1rem;
+  }
+}
+
+// form
+
+.form-container {
+  width: 20%;
+  margin: 1rem auto;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+
+    input {
+      font-size: 14px;
+      margin-top: 1rem;
+      border-radius: 4px;
+      padding: 4px 11px;
+      border: 1px solid #d9d9d9;
+      color: rgba(0, 0, 0, 0.65);
+    }
+
+    textarea {
+      font-size: 14px;
+      margin-top: 1rem;
+      border-radius: 4px;
+      padding: 4px 11px;
+      border: 1px solid #d9d9d9;
+      color: rgba(0, 0, 0, 0.65);
+    }
+
+    button {
+      width: 50%;
+      margin: 1rem auto 0;
+    }
+    .dash-button {
+      width: 80%;
+      background-color: #283018;
+      border-color: #283018;
+    }
+  }
+}
