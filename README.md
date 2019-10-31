@@ -1,3 +1,3 @@
-# FrontEnd
+# Project for the family
 
-Licensed under the [MIT License](LICENSE).
+
